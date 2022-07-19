@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Manrope&family=Poppins&family=Roboto&display=swap');
+
+/* ------------
+Common Styling 
+---------------*/
+:root{
+    --text-black: #3A3A3A;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+section{
+    margin-top: 100px;
+}
+
+.button-style{
+    padding: 10px 24px;
+    border-radius: 41px;
+    border: none;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    line-height: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.fa-solid.space{
+    margin-left: 8px;
+}
+/* --------------
+Nav Menu Section 
+---------------*/
+header{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+.menu-icon{
+    font-size: 24px;
+    display: none;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--text-black);
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.cart a, li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color:  var(--text-black);
+    margin-left: 34px;
+}
+.nav-icon{
+    font-size: 20px;
+}
+
+/* --------------
+Banner Section
+---------------*/
+.banner{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.text-segment{
+    width: 50%;
+}
+.motto{
+    font-size: 52px;
+    font-weight: 700;
+    color: var(--text-black);
+}
+
+.motto-text{
+    margin: 16px 0;
+    font-size: 16px;
+    color: var(--text-black);
+    font-weight: 600;
+}
+
+.image-segment .back-circle{
+    width: 475px;
+    position: absolute;
+}
+.image-segment .main-image{
+    position: relative;
+    width: 440px;
+    z-index: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+/* --------------
+Comany Logo Section
+---------------*/
+.logo-container{
+    max-width: 1110px;
+    margin: 0 auto;
+    border: 2px solid rgb(201, 201, 201);
+    border-left: none;
+    border-right: none;
+}
+.logos{
+    height: 110px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* -------------------------
+Popular Collections Section
+---------------------------*/
+.collection-container{
+    max-width: 1047px;
+    margin: 0 auto;
+}
+
+.collection-title{
+    font-size: 28px;
+    color: var(--text-black);
+    font-weight: 600;
+    text-align: center;
+    margin: 30px 0;
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.content{
+    padding: 15px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.content-name{
+    font-size: 28px;
+    font-weight: 600;
+    color: #18191F;
+}
+.content-price{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px 0 15px;
+}
+.fa-regular.filled, .fa-star.filled{
+    font-size: 16px;
+    color:  #FB8200;;
+}
+.rating-number{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #5E6366;
+    margin-left: 10px;
+}
+.content-short-description{
+    width: 70%;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    margin-top: 8px;
+    line-height: 24px;
+}
+
+.see-more-button{
+    margin-top: 50px;
+    text-align: right;
+}
+.see-more-button a{
+    text-decoration: none;
+    color: #E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* -------------------------
+Featured Products Section
+---------------------------*/
+.featured-product{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.feature-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature-image img{
+    width: 400px;
+}
+.feature-text-segment{
+    width: 55%;
+}
+.feature-title{
+    font-size: 38px;
+    font-weight: 700;
+}
+.feature-text{
+    font-size: 16px;
+    color: var(--text-black);
+    font-weight: 700;
+    margin: 16px 0;
+    width: 80%;
+}
+.join-now-button{
+    border-radius: 0;
+}
+/*-----------------------
+Footer Section 
+------------------------*/
+footer{
+    background-color: #0A0826;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 100px;
+}
+.footer-container{
+    color: #fff;
+}
+
+.footer-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.footer-text{
+    font-family: 'Manrope';
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 5px 0;
+    color: #D9DBE1;
+}
+.socialmedia-link{
+    margin-top: 20px;
+}
+.socialmedia-link a{
+    text-decoration: none;
+    color: #D9DBE1;
+}
+.socialmedia-link a .icon{
+    font-size: 18px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 50%;
+    margin: 0 8px;
+
+}

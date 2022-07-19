@@ -1,0 +1,185 @@
+/*-----------------------
+For Mobile Phone 
+------------------------*/
+
+@media only screen and (max-width: 580px) {
+    header{
+        width: 90%;
+    }
+    ul li{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    /* --------------------------------- */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .text-segment{
+        margin-top: 50px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .motto{
+        font-size: 28px;
+    }
+    .motto-text{
+        font-size: 14px;
+    }
+    .image-segment{
+        display: flex;
+        justify-content: center;
+    }
+    .image-segment .main-image{
+        width: 60%;
+    }
+    .image-segment .back-circle{
+        width: 60%;
+    }
+    /* --------------------------------- */
+
+    .logo-container{
+        width: 80%;
+        border: none;
+    }
+    .logo{
+        margin: 10px 10px;
+    }
+    .logo img{
+        width: 70px;
+    }
+    
+    /* --------------------------------- */
+    .collection-container{
+        width: 90%;
+    }
+    .collections{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .content img{
+        width: 100%;
+    }
+    /* ----------------------------- */
+    .featured-product{
+        margin-top: 50px;
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    .feature-text-segment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .feature-text{
+        width: 80%;
+    }
+    .feature-image img{
+        margin-top: 50px;
+        width: 90%;
+    }
+    .join-now-button{
+        border-radius: 0;
+    }
+}
+
+/*-----------------------
+For Tab
+------------------------*/
+
+@media only screen and (min-width:581px) and (max-width: 980px) {
+    header{
+        width: 90%;
+    }
+    ul li{
+        display: none;
+    }
+    .menu-icon{
+        display: block;
+    }
+    /* --------------------------------- */
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+    .text-segment{
+        margin-top: 50px;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .motto{
+        font-size: 28px;
+    }
+    .motto-text{
+        font-size: 14px;
+    }
+    .image-segment{
+        display: flex;
+        justify-content: center;
+    }
+    .image-segment .main-image{
+        width: 60%;
+    }
+    .image-segment .back-circle{
+        width: 60%;
+    }
+    /* --------------------------------- */
+
+    .logo-container{
+        width: 80%;
+        border: none;
+    }
+    .logo{
+        margin: 10px 10px;
+    }
+    .logo img{
+        width: 70px;
+    }
+    
+    /* --------------------------------- */
+
+    .collection-container{
+        width: 90%;
+        margin-top: 50px;
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content img{
+        width: 100%;
+    }
+    /* ----------------------------- */
+    .featured-product{
+        margin-top: 50px;
+    }
+    .feature-container{
+        flex-direction: column-reverse;
+        text-align: center;
+        
+    }
+    .feature-text-segment{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+    .feature-text{
+        width: 80%;
+    }
+    .feature-image img{
+        margin-top: 50px;
+        width: 90%;
+    }
+    .join-now-button{
+        border-radius: 0;
+    }
+}
